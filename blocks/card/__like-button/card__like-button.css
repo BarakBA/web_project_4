@@ -1,0 +1,6 @@
+.card__like-button{
+  width: 21px;
+  height: 19px;
+  background-image: url("../../../images/heart-hollow.svg");
+  margin-right: 18px;
+}
