@@ -6,3 +6,7 @@
   right: -40px;
   transform: rotate(45deg);
 }
+
+.edit-profile__cancel-button:hover{
+  opacity: .6;
+}

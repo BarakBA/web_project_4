@@ -4,3 +4,7 @@
   background-image: url("../../../images/heart-hollow.svg");
   margin-right: 18px;
 }
+
+.card__like-button:hover{
+  opacity: .5;
+}
