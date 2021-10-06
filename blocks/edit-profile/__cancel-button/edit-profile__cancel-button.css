@@ -10,3 +10,9 @@
 .edit-profile__cancel-button:hover{
   opacity: .6;
 }
+
+@media screen and (max-width: 580px){
+  .edit-profile__cancel-button{
+    right: 0;
+  }
+}

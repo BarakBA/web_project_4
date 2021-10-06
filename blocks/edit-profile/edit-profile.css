@@ -10,7 +10,7 @@
   min-width: 282px;
   height: 330px;
 
-  position: absolute;
+  position: fixed;
   top: calc(50% - 165px);
 
   display: none;
@@ -26,4 +26,11 @@
 
 .edit-profile_show{
   display: flex;
+}
+
+@media screen and (max-width: 580px){
+  .edit-profile{
+    max-width: 282px;
+    height: 322px;
+  }
 }

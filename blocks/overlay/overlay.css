@@ -1,6 +1,6 @@
 .overlay{
   display: none;
-  position: absolute;
+  position: fixed;
   width: 100%;
   max-width: 1280px;
   height: 100%;
