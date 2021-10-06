@@ -8,3 +8,7 @@
   background: #000000;
   opacity: 0.5;
 }
+
+.overlay_show{
+  display: block;
+}

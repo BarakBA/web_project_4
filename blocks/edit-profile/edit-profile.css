@@ -23,3 +23,7 @@
   border-radius: 10px;
   z-index: 2;
 }
+
+.edit-profile_show{
+  display: flex;
+}

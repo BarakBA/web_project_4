@@ -8,3 +8,7 @@
 .card__like-button:hover{
   opacity: .5;
 }
+
+.card__like-button_filled{
+  background-image: url("../../../images/heart-full.svg");
+}
