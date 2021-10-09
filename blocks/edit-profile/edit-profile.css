@@ -10,8 +10,8 @@
   min-width: 282px;
   height: 330px;
 
-  position: fixed;
-  top: calc(50% - 165px);
+  /*position: fixed;
+  top: calc(50% - 165px);*/
 
   display: none;
   flex-direction: column;
