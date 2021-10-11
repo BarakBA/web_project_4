@@ -9,13 +9,17 @@
   width: 100%;
   max-width: 880px;
   padding-top: 36px;
-  display: flex;
-  align-items: center;
+
+  /**********************/
+
+  display: grid;
+  grid-template-columns: 127px 1fr 150px;
+  grid-template-rows: repeat(2, 1fr);
 }
 
 @media screen and (max-width:580px){
   .profile{
-    flex-direction: column;
-    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 127px 1fr 1fr 50px;
   }
 }
