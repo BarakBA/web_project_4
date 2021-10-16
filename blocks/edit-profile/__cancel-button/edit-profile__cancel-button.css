@@ -1,0 +1,18 @@
+.edit-profile__cancel-button{
+  width: 40px;
+  height: 40px;
+  align-self: flex-end;
+  margin: -80px -40px 0 0;
+  transform: rotate(45deg);
+  background-image: url(../../../images/plus.svg);
+}
+
+.edit-profile__cancel-button:hover{
+  opacity: .6;
+}
+
+@media screen and (max-width: 580px){
+  .edit-profile__cancel-button{
+    margin: -80px 0 0 0;
+  }
+}

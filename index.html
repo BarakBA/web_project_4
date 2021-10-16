@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="pages/index.css">
+  <title>Around the U.S.</title>
+</head>
+
+
+
+<body class="page">
+  
+  <header class="header">
+    <img class="header__logo" src="./images/logo.svg" alt="around the u.s">
+  </header>
+
+  <main>
+    <section class="overlay">
+      <div class="edit-profile">
+        <button class="edit-profile__cancel-button" type="button"></button>
+        <h2 class="edit-profile__text">Edit profile</h2>
+        <form>
+          <input class="edit-profile__input" name="user-name" type="text" placeholder="Name">
+          <input class="edit-profile__input" name="user-about" type="text" placeholder="About me">
+          <button class="edit-profile__save-button" type="submit">Save</button>
+        </form>
+        </div>
+    </section>
+
+    <section class="profile">
+      <img class="profile__picture" src="./images/profile-picture.jpg" alt="Jacques Cousteau">
+      <div class="profile__info">
+        <h1 class="profile__name">Jacques Cousteau</h1>
+        <button class="profile__edit-button" type="button"></button>
+        <p class="profile__about">Explorer</p>
+      </div>
+      <button class="profile__plus-button" type="button"></button>
+    </section>
+
+
+    <section class="picture-cards">
+
+      <article class="card">
+        <img class="card__image" src="./images/valley.jpg" alt="valley">
+        <h2 class="card__text">Yosemite Valley</h2>
+        <button class="card__like-button" type="button"></button>
+      </article>
+
+      <article class="card">
+        <img class="card__image" src="./images/lake.png" alt="lake">
+        <h2 class="card__text">Lake Louisey</h2>
+        <button class="card__like-button" type="button"></button>
+      </article>
+
+      <article class="card">
+        <img class="card__image" src="./images/hills.png" alt="hills">
+        <h2 class="card__text">Bald Mountains</h2>
+        <button class="card__like-button" type="button"></button>
+      </article>
+
+      <article class="card">
+        <img class="card__image" src="./images/mountains.png" alt="mountains">
+        <h2 class="card__text">Latemar</h2>
+        <button class="card__like-button" type="button"></button>
+      </article>
+
+      <article class="card">
+        <img class="card__image" src="./images/shore.png" alt="shore">
+        <h2 class="card__text">Vanoise National Park</h2>
+        <button class="card__like-button" type="button"></button>
+      </article>
+
+      <article class="card">
+        <img class="card__image" src="./images/dock.png" alt="dock">
+        <h2 class="card__text">Lago di Braies</h2>
+        <button class="card__like-button" type="button"></button>
+      </article>
+
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__copyright">&copy; 2021 Around The U.S.</p>
+  </footer>
+
+  <script src="script.js"></script> 
+</body>
+</html>
