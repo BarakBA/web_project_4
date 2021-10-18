@@ -1,9 +1,9 @@
 
-let name = document.querySelector('[name="user-name"]');
-let about = document.querySelector('[name="user-about"]');
+let name = document.querySelector(".profile__name");
+let about = document.querySelector(".profile__about");
 
-let editName = document.querySelector(".edit-profile__name");
-let editAbout = document.querySelector(".edit-profile__about");
+let editName = document.querySelector('[name="user-name"]');
+let editAbout = document.querySelector('[name="user-about"]');
 
 let overlay = document.querySelector(".overlay");
 
@@ -26,7 +26,6 @@ function saveClick() {
 }
 
 function cancelClick() {
-  editProfile.classList.remove("edit-profile_show");
   overlay.classList.remove("overlay_show");
 }
 

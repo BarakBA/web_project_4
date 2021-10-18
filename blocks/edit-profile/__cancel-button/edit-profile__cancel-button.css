@@ -2,9 +2,14 @@
   width: 40px;
   height: 40px;
   align-self: flex-end;
-  margin: -80px -40px 0 0;
+  margin: -40px -40px 0 0;
   transform: rotate(45deg);
   background-image: url(../../../images/plus.svg);
+  background-color: rgba(0, 0, 0, 0);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  cursor: pointer;
 }
 
 .edit-profile__cancel-button:hover{
@@ -13,6 +18,8 @@
 
 @media screen and (max-width: 580px){
   .edit-profile__cancel-button{
-    margin: -80px 0 0 0;
+    width: 26px;
+    height: 26px;
+    margin: -40px 0 0 0;
   }
 }

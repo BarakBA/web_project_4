@@ -9,11 +9,13 @@
 
 @import url(../blocks/header/__logo/header__logo.css);
 
+@import url(../blocks/content/content.css);
 
 @import url(../blocks/edit-profile/edit-profile.css);
 
 @import url(../blocks/edit-profile/__cancel-button/edit-profile__cancel-button.css);
 @import url(../blocks/edit-profile/__text/edit-profile__text.css);
+@import url(../blocks/edit-profile/__form/edit-profile__form.css);
 @import url(../blocks/edit-profile/__input/edit-profile__input.css);
 @import url(../blocks/edit-profile/__save-button/edit-profile__save-button.css);
 

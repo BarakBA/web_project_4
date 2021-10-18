@@ -2,7 +2,12 @@
   width: 21px;
   height: 19px;
   background-image: url("../../../images/heart-hollow.svg");
+  background-color: rgba(0, 0, 0, 0);
+  background-repeat: no-repeat;
+  background-position: center;
   margin-right: 18px;
+  border: none;
+  cursor: pointer;
 }
 
 .card__like-button:hover{

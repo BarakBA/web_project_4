@@ -2,10 +2,14 @@
   width: 22px;
   height: 22px;
   border: 2px solid #FFF;
-  padding: 12px 62px;
+  padding: 25px 75px;
   margin: 0 0 0 auto;
   border-radius: 2px;
   background-image: url(../../../images/plus.svg);
+  background-color: rgba(0, 0, 0, 0);
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
 }
 
 .profile__plus-button:hover{

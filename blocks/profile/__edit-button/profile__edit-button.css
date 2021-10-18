@@ -5,6 +5,10 @@
   border: 1px solid #FFF;
   margin-top: 15px;
   background-image: url(../../../images/pencil.svg);
+  background-color: rgba(0, 0, 0, 0);
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
 }
 
 .profile__edit-button:hover{
