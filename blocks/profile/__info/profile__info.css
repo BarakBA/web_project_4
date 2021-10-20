@@ -3,7 +3,7 @@
   padding-left: 25px;
 
   display: grid;
-  grid-template-columns: calc(100% - 154px - 24px) 24px;
+  grid-template-columns: calc(100% - 25% - 24px) 24px;
 }
 
 @media screen and (max-width:580px){
