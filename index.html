@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="pages/index.css">
+  <title>Around the U.S.</title>
+</head>
+
+
+
+<body class="page">
+  
+  <header class="header">
+    <img class="header__logo" src="./images/logo.svg" alt="around the u.s">
+  </header>
+
+
+  <section class="overlay" name="edit-profile-overlay">
+    <div class="pop-up">
+      <button class="pop-up__cancel-button" name="close-edit-form" type="button"></button>
+      <h2 class="pop-up__text">Edit profile</h2>
+      <form class="pop-up__form" name="update-profile">
+        <input class="pop-up__input" name="user-name" type="text" placeholder="Name">
+        <input class="pop-up__input" name="user-about" type="text" placeholder="About me">
+        <button class="pop-up__save-button" type="submit">Save</button>
+      </form>
+    </div>
+  </section>
+  <section class="overlay" name="add-card-overlay">
+    <div class="pop-up">
+      <button class="pop-up__cancel-button" name="close-new-card-form" type="button"></button>
+      <h2 class="pop-up__text">New place</h2>
+      <form class="pop-up__form" name="add-card">
+        <input class="pop-up__input" name="card-title" type="text" placeholder="Title">
+        <input class="pop-up__input" name="card-img-link" type="text" placeholder="Image link">
+        <button class="pop-up__save-button" type="submit">Create</button>
+      </form>
+    </div>
+  </section>
+  <section class="overlay" name="big-picture"></section>
+
+
+  <main class="content">
+    <section class="profile">
+      <img class="profile__picture" src="./images/profile-picture.jpg" alt="Jacques Cousteau">
+      <div class="profile__info">
+        <h1 class="profile__name">Jacques Cousteau</h1>
+        <button class="profile__edit-button" type="button"></button>
+        <p class="profile__about">Explorer</p>
+      </div>
+      <button class="profile__add-card-button" type="button"></button>
+    </section>
+
+    <section class="picture-cards"></section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__copyright">&copy; 2021 Around The U.S.</p>
+  </footer>
+
+  <template id="card">
+    <article class="card">
+      <button class="card__del-button" type="button"></button>
+      <img class="card__image">
+      <h2 class="card__text"></h2>
+      <button class="card__like-button" type="button"></button>
+    </article>
+  </template>
+
+  <script src="script.js"></script> 
+</body>
+</html>

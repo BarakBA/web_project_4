@@ -1,0 +1,30 @@
+.pop-up__save-button{
+  width: 358px;
+  height: 50px;
+  background: #000;
+  border-radius: 2px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 50px;
+  text-align: center;
+  color: #fff;
+  padding: 0;
+  margin: 48px 0 0 0;
+  cursor: pointer;
+}
+
+.pop-up__save-button:hover{
+  opacity: .8;
+}
+
+@media screen and (max-width: 580px){
+  .pop-up__save-button{
+    width: 238px;
+    height: 46px;
+    font-size: 14px;
+    line-height: 46px;
+    margin: 46px 0 0 0;
+  }
+}
