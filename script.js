@@ -46,7 +46,10 @@ const newCardImgLink = document.querySelector('[name="card-img-link"]');
 const cancelNewCard = document.querySelector('[name="close-new-card-form"]');
 
 
-const overlayPic = document.querySelector('[name="big-picture"]');
+const overlayPic = document.querySelector('[name="big-picture-overlay"]');
+const closeBigPic = document.querySelector('[name="exit-big-pic"]');
+const bigPicLink = document.querySelector('[name="the-big-pic"]');
+const bigPicText = document.querySelector('[name="big-pic-text"]');
 
 
 function newCard(image, text){
@@ -68,9 +71,14 @@ function newCard(image, text){
 
   const img = document.querySelector(".card__image");
   img.addEventListener("click", function (evt) {
-    evt.target.classList.add(".big-picture");/************* */
+    bigPicLink.src = image;
+    bigPicText.textContent = text;
+    overlayPic.classList.add("overlay_show");
+    picClick();
   });
 }
+
+
 function setInitialCards(cardsArray){
   for(let i = initialCards.length - 1; i >=0; i--){
     newCard(cardsArray[i].link, cardsArray[i].name);
@@ -107,6 +115,7 @@ function createCard(){
 function cancelClick() {
   overlayEditProfile.classList.remove("overlay_show");
   overlayAddCard.classList.remove("overlay_show");
+  overlayPic.remove("overlay_show");
 }
 
 
@@ -114,5 +123,6 @@ editProfile.addEventListener("click", editProfileClick);
 updateProfileForm.addEventListener("submit", saveClick); 
 addCardForm.addEventListener("submit", createCard);
 cancelEdit.addEventListener("click", cancelClick);
-cancelNewCard.addEventListener("click", cancelClick)
+cancelNewCard.addEventListener("click", cancelClick);
+closeBigPic.addEventListener("click", cancelClick);
 addCard.addEventListener("click", showCardForm);

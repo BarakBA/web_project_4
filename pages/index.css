@@ -1,12 +1,11 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/Inter/inter.css);
 
+
 @import url(../blocks/page/page.css);
 
 
-
 @import url(../blocks/header/header.css);
-
 @import url(../blocks/header/__logo/header__logo.css);
 
 @import url(../blocks/content/content.css);
@@ -21,9 +20,7 @@
 
 
 @import url(../blocks/overlay/overlay.css);
-
 @import url(../blocks/overlay/_show/overlay_show.css);
-
 
 @import url(../blocks/profile/profile.css);
 
@@ -37,7 +34,10 @@
 
 @import url(../blocks/picture-cards/picture-cards.css);
 
-
+@import url(../blocks/big-picture/big-picture.css);
+@import url(../blocks/big-picture/__exit-button/big-picture__exit-button.css);
+@import url(../blocks/big-picture/__pic/big-picture__pic.css);
+@import url(../blocks/big-picture/__text/big-picture__text.css);
 
 
 @import url(../blocks/card/card.css);

@@ -10,3 +10,7 @@
   z-index: 1;
   margin: 18px 0 0 249px;
 }
+
+.card__del-button:hover{
+  opacity: .6;
+}

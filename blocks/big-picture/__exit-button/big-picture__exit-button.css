@@ -1,0 +1,26 @@
+.big-picture__exit-button{
+    width: 40px;
+    height: 40px;
+    align-self: flex-end;
+    margin: -40px -40px 0 0;
+    transform: rotate(45deg);
+    background-image: url(../../../images/plus.svg);
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .big-picture__exit-button:hover{
+    opacity: .6;
+  }
+  
+  @media screen and (max-width: 580px){
+    .big-picture__exit-button{
+      width: 30px;
+      height: 30px;
+      margin: -30px -30px 0 0;
+    }
+  }
