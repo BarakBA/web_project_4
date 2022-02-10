@@ -74,7 +74,6 @@ function newCard(image, text){
     bigPicLink.src = image;
     bigPicText.textContent = text;
     overlayPic.classList.add("overlay_show");
-    picClick();
   });
 }
 
@@ -115,7 +114,7 @@ function createCard(){
 function cancelClick() {
   overlayEditProfile.classList.remove("overlay_show");
   overlayAddCard.classList.remove("overlay_show");
-  overlayPic.remove("overlay_show");
+  overlayPic.classList.remove("overlay_show");
 }
 
 
